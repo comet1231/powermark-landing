@@ -2821,7 +2821,7 @@ body.header_transparent .pearl_sticked {
 }
 .stm-header .stm-navigation__default > ul > li > a:hover:after {
   bottom: -10px;
-  visibility: visible;
+  visibility: hidden;
   opacity: 1;
 }
 .stm-header .stm-navigation__default > ul > li.current-menu-item > a:after,

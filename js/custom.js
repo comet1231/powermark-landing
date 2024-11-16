@@ -304,6 +304,10 @@
             return false;
         });
 
+        $('.menu-item').on('click', function () {
+            $('.stm-header, .stm-header__overlay, .stm_mobile__switcher').toggleClass('active');
+        });
+
         $(".main_menu_nav > li.menu-item-has-children > a").after('<span class="arrow"><i></i></span>');
         $(".main_menu_nav > li.menu-item-has-children > .sub-menu > .menu-item-has-children > a").after('<span class="arrow"><i class="fa fa-chevron-down"></i></span>');
         $(".consulting_menu_nav > li.menu-item-has-children > a").after('<i class="fa fa-plus arrow" aria-hidden="true"></i>');
